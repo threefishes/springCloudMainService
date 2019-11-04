@@ -1,5 +1,6 @@
 package cn.threefishes.cloudapi.control.activity;
 
+import cn.threefishes.cloudrepository.entity.common.ResultEntity;
 import cn.threefishes.cloudservice.serviceinterface.HelloTvService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -25,7 +26,7 @@ public class HelloTvController {
     private HelloTvService helloTvService;
 
     @RequestMapping(value = "activity/hellotv/hello")
-    public String hello(){
+    public ResultEntity hello(){
         return helloTvService.helloTv();
     }
 }

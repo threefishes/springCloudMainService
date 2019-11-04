@@ -3,6 +3,7 @@ package cn.threefishes.cloudservice.services.tv;
 import cn.threefishes.cloudrepository.dao.activity.SiteMapper;
 import cn.threefishes.cloudrepository.entity.activity.Site;
 import cn.threefishes.cloudrepository.entity.activity.SiteExample;
+import cn.threefishes.cloudrepository.entity.common.ResultEntity;
 import cn.threefishes.cloudservice.annotation.DataBase;
 import cn.threefishes.cloudservice.serviceinterface.HelloTvService;
 import cn.threefishes.cloudservice.services.BaseServiceImpl;
@@ -17,14 +18,14 @@ public class HelloTvServiceImpl  extends BaseServiceImpl<Site,SiteExample> imple
 
     @Override
     @DataBase("master")
-    public String helloTv(){
+    public ResultEntity helloTv(){
         Site site = siteMapper.selectByPrimaryKey(1);
-        return "hello Tv" + site.getValue();
+        return new ResultEntity(200,"hello Tv" + site.getValue(),"From master db");
     }
 
     @Override
     @DataBase("slave")
-    public String helloSlaver(){
-        return "hello slaver";
+    public ResultEntity helloSlaver(){
+        return new ResultEntity(200,"hello slaver","from slaver db");
     }
 }
