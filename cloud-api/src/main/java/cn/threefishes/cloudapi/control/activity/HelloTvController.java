@@ -25,6 +25,10 @@ public class HelloTvController {
     @Autowired
     private HelloTvService helloTvService;
 
+    /**
+     * Test Hello Tv
+     * @return
+     */
     @RequestMapping(value = "activity/hellotv/hello")
     public ResultEntity hello(){
         return helloTvService.helloTv();
