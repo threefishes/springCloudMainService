@@ -34,6 +34,7 @@ hikari:
     jdbc-url: jdbc:mysql://127.0.0.1/qtf?characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: collec
+
     maximum-pool-size: 20
     pool-name: master
     connection-timeout: 30000

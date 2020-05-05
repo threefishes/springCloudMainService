@@ -6,7 +6,9 @@
 
     <!--classPathEntry:数据库的JDBC驱动,换成你自己的驱动位置 可选 -->
     <classPathEntry
+
             location="/Users/threefishes/TFEs/qtf/cloud-repository/mysql-connector-java-8.0.20.jar"/>
+
     <context id="mysqlTables" targetRuntime="MyBatis3">
         <plugin type="org.mybatis.generator.plugins.RowBoundsPlugin" />
         <!-- 注释 -->
@@ -18,6 +20,7 @@
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
                         connectionURL="jdbc:mysql://localhost/qtf?characterEncoding=UTF-8"
                         userId="root" password="collec">
+
         </jdbcConnection>
         <!-- 类型转换 -->
         <javaTypeResolver>
@@ -28,7 +31,6 @@
         <!-- 生成Model类存放位置 -->
 
         <javaModelGenerator targetPackage="cn.threefishes.cloudrepository.entity"
-
                             targetProject="${javaModelGenerator.targetProject}">
             <property name="enableSubPackages" value="true"/>
             <property name="trimStrings" value="true"/>
@@ -42,6 +44,8 @@
 
         <!-- 生成接口dao -->
         <javaClientGenerator type="XMLMAPPER"
+                             targetPackage="cn.threefishes.cloudrepository.dao"
+
                              targetProject="${javaClientGenerator.targetProject}">
             <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>

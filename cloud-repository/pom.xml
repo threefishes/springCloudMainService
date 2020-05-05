@@ -8,6 +8,7 @@
 
 		<version>2.2.6.RELEASE</version>
 
+
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>cn.threefishes</groupId>
@@ -73,7 +74,6 @@
 				<groupId>org.mybatis.generator</groupId>
 				<artifactId>mybatis-generator-maven-plugin</artifactId>
 				<version>${mybatis.generator.version}</version>
-
 				<configuration>
 					<verbose>true</verbose>
 					<overwrite>true</overwrite>
