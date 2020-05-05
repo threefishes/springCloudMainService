@@ -209,6 +209,7 @@ cn/threefishes/cloudrepository/entity/ShareVipLogExample$GeneratedCriteria.class
 cn/threefishes/cloudrepository/entity/ChainPromotionExample.class
 cn/threefishes/cloudrepository/dao/DiscountMapper.class
 cn/threefishes/cloudrepository/dao/FreightAreaMapper.class
+cn/threefishes/cloudrepository/entity/activity/SiteExample$Criterion.class
 cn/threefishes/cloudrepository/entity/ApiMenuItemExample$Criterion.class
 cn/threefishes/cloudrepository/dao/AdminMapper.class
 cn/threefishes/cloudrepository/dao/AdvertorialFollowMapper.class
@@ -799,6 +800,7 @@ cn/threefishes/cloudrepository/entity/GiftExample$Criterion.class
 cn/threefishes/cloudrepository/dao/AdminMenuMapper.class
 cn/threefishes/cloudrepository/entity/VirtualOrdersGoodsExample.class
 cn/threefishes/cloudrepository/dao/MemberSigninMapper.class
+cn/threefishes/cloudrepository/entity/activity/SiteExample.class
 cn/threefishes/cloudrepository/entity/PurchaseBuyExample.class
 cn/threefishes/cloudrepository/entity/ContractLogExample$Criterion.class
 cn/threefishes/cloudrepository/entity/ChainOrdersGoodsExample$Criteria.class
@@ -967,6 +969,7 @@ cn/threefishes/cloudrepository/entity/RechargeBillExample.class
 cn/threefishes/cloudrepository/entity/StartAdSliderExample$GeneratedCriteria.class
 cn/threefishes/cloudrepository/entity/TrysBlackExample$GeneratedCriteria.class
 cn/threefishes/cloudrepository/dao/DistributionBillMapper.class
+cn/threefishes/cloudrepository/dao/activity/SiteMapper.class
 cn/threefishes/cloudrepository/entity/BargainExample.class
 cn/threefishes/cloudrepository/dao/VirtualOrdersGoodsCodeMapper.class
 cn/threefishes/cloudrepository/entity/ClerkGroupExample$Criteria.class
@@ -1344,6 +1347,7 @@ cn/threefishes/cloudrepository/dao/GeneralMyBatisMapper.class
 cn/threefishes/cloudrepository/entity/PromotionQuota.class
 cn/threefishes/cloudrepository/entity/OrdersPayExample$GeneratedCriteria.class
 cn/threefishes/cloudrepository/entity/OrdersPushInfoExample$Criterion.class
+cn/threefishes/cloudrepository/entity/activity/SiteExample$Criteria.class
 cn/threefishes/cloudrepository/dao/ChainBillOnlineMapper.class
 cn/threefishes/cloudrepository/entity/NavigationExample.class
 cn/threefishes/cloudrepository/entity/DistributionBillExample$GeneratedCriteria.class
@@ -1953,6 +1957,7 @@ cn/threefishes/cloudrepository/entity/AttributeExample$Criterion.class
 cn/threefishes/cloudrepository/entity/ShowOrdersExample.class
 cn/threefishes/cloudrepository/entity/TaxClassCodeExample$Criterion.class
 cn/threefishes/cloudrepository/entity/VoucherExample$Criteria.class
+cn/threefishes/cloudrepository/entity/activity/SiteExample$GeneratedCriteria.class
 cn/threefishes/cloudrepository/entity/WeixinUserBlackExample$Criterion.class
 cn/threefishes/cloudrepository/entity/StoreClassExample.class
 cn/threefishes/cloudrepository/entity/DistributorJoinExample$Criteria.class
@@ -1967,6 +1972,7 @@ cn/threefishes/cloudrepository/entity/StatStoreHours.class
 cn/threefishes/cloudrepository/entity/CategoryExample$GeneratedCriteria.class
 cn/threefishes/cloudrepository/entity/AppStatExample$Criteria.class
 cn/threefishes/cloudrepository/dao/RefundDetailMapper.class
+cn/threefishes/cloudrepository/entity/activity/Site.class
 cn/threefishes/cloudrepository/entity/AddressExample.class
 cn/threefishes/cloudrepository/entity/ShowOrdersExample$Criterion.class
 cn/threefishes/cloudrepository/entity/AdminExample$Criteria.class

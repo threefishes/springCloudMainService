@@ -3,7 +3,6 @@ cn/threefishes/cloudservice/serviceinterface/HelloTvService.class
 cn/threefishes/cloudservice/services/dto/MemberDTO.class
 cn/threefishes/cloudservice/annotation/DataBase.class
 cn/threefishes/cloudservice/services/BaseServiceImpl.class
-cn/threefishes/cloudservice/services/tf/HelloTvServiceImpl.class
 cn/threefishes/cloudservice/redis/RedisConfig.class
 cn/threefishes/cloudservice/redis/RedisConfigurtion.class
 cn/threefishes/cloudservice/redis/RedisPoolFactory.class

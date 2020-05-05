@@ -342,6 +342,7 @@
 /Users/threefishes/TFEs/qtf/cloud-repository/src/main/java/cn/threefishes/cloudrepository/entity/MemberDislike.java
 /Users/threefishes/TFEs/qtf/cloud-repository/src/main/java/cn/threefishes/cloudrepository/entity/SellerGroupExample.java
 /Users/threefishes/TFEs/qtf/cloud-repository/src/main/java/cn/threefishes/cloudrepository/entity/WeixinSubscribeQrcode.java
+/Users/threefishes/TFEs/qtf/cloud-repository/src/main/java/cn/threefishes/cloudrepository/dao/activity/SiteMapper.java
 /Users/threefishes/TFEs/qtf/cloud-repository/src/main/java/cn/threefishes/cloudrepository/dao/VirtualOrdersGoodsCodeMapper.java
 /Users/threefishes/TFEs/qtf/cloud-repository/src/main/java/cn/threefishes/cloudrepository/entity/CouponActivityExample.java
 /Users/threefishes/TFEs/qtf/cloud-repository/src/main/java/cn/threefishes/cloudrepository/entity/DistributorExample.java
@@ -1069,6 +1070,7 @@
 /Users/threefishes/TFEs/qtf/cloud-repository/src/main/java/cn/threefishes/cloudrepository/entity/TaxClassCategory.java
 /Users/threefishes/TFEs/qtf/cloud-repository/src/main/java/cn/threefishes/cloudrepository/entity/BindShopExample.java
 /Users/threefishes/TFEs/qtf/cloud-repository/src/main/java/cn/threefishes/cloudrepository/entity/GroupOpen.java
+/Users/threefishes/TFEs/qtf/cloud-repository/src/main/java/cn/threefishes/cloudrepository/entity/activity/SiteExample.java
 /Users/threefishes/TFEs/qtf/cloud-repository/src/main/java/cn/threefishes/cloudrepository/entity/ArtificialMaterial.java
 /Users/threefishes/TFEs/qtf/cloud-repository/src/main/java/cn/threefishes/cloudrepository/dao/DistributionGoodsMapper.java
 /Users/threefishes/TFEs/qtf/cloud-repository/src/main/java/cn/threefishes/cloudrepository/entity/PredepositLog.java
@@ -1174,6 +1176,7 @@
 /Users/threefishes/TFEs/qtf/cloud-repository/src/main/java/cn/threefishes/cloudrepository/entity/WeixinAdmin.java
 /Users/threefishes/TFEs/qtf/cloud-repository/src/main/java/cn/threefishes/cloudrepository/dao/StatOrdersUpdateTaskMapper.java
 /Users/threefishes/TFEs/qtf/cloud-repository/src/main/java/cn/threefishes/cloudrepository/entity/EmailCodeLogExample.java
+/Users/threefishes/TFEs/qtf/cloud-repository/src/main/java/cn/threefishes/cloudrepository/entity/activity/Site.java
 /Users/threefishes/TFEs/qtf/cloud-repository/src/main/java/cn/threefishes/cloudrepository/entity/CategoryBrandExample.java
 /Users/threefishes/TFEs/qtf/cloud-repository/src/main/java/cn/threefishes/cloudrepository/entity/ApiMenuItem.java
 /Users/threefishes/TFEs/qtf/cloud-repository/src/main/java/cn/threefishes/cloudrepository/entity/MemberToken.java

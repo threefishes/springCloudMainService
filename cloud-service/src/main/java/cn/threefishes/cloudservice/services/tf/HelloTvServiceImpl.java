@@ -29,7 +29,6 @@ public class HelloTvServiceImpl  extends BaseServiceImpl<Member,MemberExample> i
 
     @Override
     public ResultEntity saveMember(MemberDTO memberDTO){
-
         Member member = new Member(); 
         try{
             ValueObConvert.convert(member,memberDTO);
@@ -39,6 +38,4 @@ public class HelloTvServiceImpl  extends BaseServiceImpl<Member,MemberExample> i
         int n = memberMapper.insert(member);
         return new ResultEntity(200, "插入成功");
     }
-
-    
 }

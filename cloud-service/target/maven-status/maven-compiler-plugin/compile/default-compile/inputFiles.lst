@@ -2,6 +2,7 @@
 /Users/threefishes/TFEs/qtf/cloud-service/src/main/java/cn/threefishes/cloudservice/annotation/SystemLog.java
 /Users/threefishes/TFEs/qtf/cloud-service/src/main/java/cn/threefishes/cloudservice/redis/RedisConfig.java
 /Users/threefishes/TFEs/qtf/cloud-service/src/main/java/cn/threefishes/cloudservice/services/dto/MemberDTO.java
+/Users/threefishes/TFEs/qtf/cloud-service/src/main/java/cn/threefishes/cloudservice/services/tv/HelloTvServiceImpl.java
 /Users/threefishes/TFEs/qtf/cloud-service/src/main/java/cn/threefishes/cloudservice/services/BaseServiceImpl.java
 /Users/threefishes/TFEs/qtf/cloud-service/src/main/java/cn/threefishes/cloudservice/redis/RedisConfigurtion.java
 /Users/threefishes/TFEs/qtf/cloud-service/src/main/java/cn/threefishes/cloudservice/services/tf/HelloTvServiceImpl.java

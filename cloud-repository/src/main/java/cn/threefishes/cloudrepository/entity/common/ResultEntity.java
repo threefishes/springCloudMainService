@@ -1,12 +1,5 @@
 package cn.threefishes.cloudrepository.entity.common;
 
-<<<<<<< HEAD
-
-=======
-import lombok.Data;
-
-@Data
->>>>>>> c4ffd85904b3cdeab0933e8b69a55afc81e385e3
 public class ResultEntity {
 
     public static final int SUCCESS = 200;
@@ -16,11 +9,6 @@ public class ResultEntity {
     private int code;
     private String message;
     private Object data;
-
-<<<<<<< HEAD
-
-=======
->>>>>>> c4ffd85904b3cdeab0933e8b69a55afc81e385e3
     public ResultEntity() {
     }
 
@@ -47,7 +35,6 @@ public class ResultEntity {
         this.message = "success";
     }
 
-<<<<<<< HEAD
     public int getCode() {
         return code;
     }
@@ -72,7 +59,4 @@ public class ResultEntity {
         this.data = data;
     }
 
-
-=======
->>>>>>> c4ffd85904b3cdeab0933e8b69a55afc81e385e3
 }
